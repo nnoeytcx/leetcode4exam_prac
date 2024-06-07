@@ -53,10 +53,10 @@ int isValid(char* s) {
         }
         else
         {
-            printf("Pairing %c %c\n",top(), s[i]);
+            // printf("Pairing %c %c\n",top(), s[i]);
             if (isPair(top(), s[i]))
             {
-                printf("Paired %c %c\n",top(), s[i]);
+                // printf("Paired %c %c\n",top(), s[i]);
                 pop();
             }
             else
